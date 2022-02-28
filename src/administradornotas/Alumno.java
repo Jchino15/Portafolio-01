@@ -4,6 +4,8 @@
  */
 package administradornotas;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Miguel Zelaya
@@ -32,6 +34,9 @@ public class Alumno {
         this.email = email;
         this.grado = grado;
         this.seccion = seccion;
+    }
+    public Alumno() {
+        
     }
 
 
@@ -159,6 +164,15 @@ public class Alumno {
      */
     public void setSeccion(String seccion) {
         this.seccion = seccion;
+    }
+     public void datos(){
+        ArrayList info = new ArrayList();
+        info.add("Gerson");
+        info.add("Argueta");
+        info.add("18");
+        info.add("15641216-4");
+        System.out.println("Su información es: ");
+        System.out.println(info);
     }
 
     

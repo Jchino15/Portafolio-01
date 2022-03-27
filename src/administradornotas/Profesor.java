@@ -27,6 +27,10 @@ public class Profesor {
         this.telefono = telefono;
         this.email = email;
     }
+    
+    public Profesor(){
+        
+    }
 
     /**
      * @return the nombre

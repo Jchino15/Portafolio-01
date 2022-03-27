@@ -23,6 +23,10 @@ public class Curso {
         this.nombreProfesor = nombreProfesor;
     }
     
+    public Curso(){
+        
+    }
+    
     public String getnombreCurso(){
         return nombreCurso;
     }

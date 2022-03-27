@@ -4,6 +4,8 @@
  */
 package administradornotas;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Miguel Zelaya
@@ -13,7 +15,7 @@ public class Alumno {
     private String nombres;
     private String apellidos;
     private String fecha;
-    private char sexo;
+    private String sexo;
     private String direccion;
     private String telefono;
     private String email;
@@ -22,7 +24,7 @@ public class Alumno {
     
     //Método Constructor
 
-    public Alumno(String nombres, String apellidos, String fecha, char sexo, String direccion, String telefono, String email, String grado, String seccion) {
+    public Alumno(String nombres, String apellidos, String fecha, String sexo, String direccion, String telefono, String email, String grado, String seccion) {
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.fecha = fecha;
@@ -32,6 +34,9 @@ public class Alumno {
         this.email = email;
         this.grado = grado;
         this.seccion = seccion;
+    }
+    public Alumno() {
+        
     }
 
 
@@ -80,14 +85,14 @@ public class Alumno {
     /**
      * @return the sexo
      */
-    public char getSexo() {
+    public String getSexo() {
         return sexo;
     }
 
     /**
      * @param sexo the sexo to set
      */
-    public void setSexo(char sexo) {
+    public void setSexo(String sexo) {
         this.sexo = sexo;
     }
 
@@ -159,6 +164,15 @@ public class Alumno {
      */
     public void setSeccion(String seccion) {
         this.seccion = seccion;
+    }
+     public void datos(){
+        ArrayList info = new ArrayList();
+        info.add("Gerson");
+        info.add("Argueta");
+        info.add("18");
+        info.add("15641216-4");
+        System.out.println("Su información es: ");
+        System.out.println(info);
     }
 
     

@@ -4,14 +4,18 @@
  */
 package administradornotas;
 
+<<<<<<< HEAD
 import java.util.Scanner;
 
+=======
+>>>>>>> bc449767fd6cb2fa8ae1717be3e7a2d99fbdaeb4
 /**
  *
  * @author josue
  */
 public class valores implements comparar{
     
+<<<<<<< HEAD
      public valores(){
         
     }
@@ -71,3 +75,19 @@ public class valores implements comparar{
     }
 }
 
+=======
+    public valores(){
+        
+    }
+
+    @Override
+    public void mayornota(){
+        System.out.print("El primer numero es el mayor");
+    }
+    
+    @Override
+    public void menornota(){
+        System.out.print("El primer numero es el menor");
+    }
+}
+>>>>>>> bc449767fd6cb2fa8ae1717be3e7a2d99fbdaeb4

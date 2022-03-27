@@ -9,9 +9,15 @@ package administradornotas;
  * @author josue
  */
 public interface comparar {
+<<<<<<< HEAD
     public void arreglo();
     
     public void mayorNota();
     
     public void menorNota();
+=======
+    public void mayornota();
+    
+    public void menornota();
+>>>>>>> bc449767fd6cb2fa8ae1717be3e7a2d99fbdaeb4
 }
